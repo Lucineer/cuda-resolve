@@ -1,9 +1,9 @@
 [package]
 name = "cuda-resolve"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "A2A deliberative compilation — intention to computation via multi-agent deliberation"
+description = "A2A deliberative engine — uses cuda-equipment shared types"
 
 [dependencies]
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+# Uncomment when cuda-equipment is published:
+# cuda-equipment = { path = "../cuda-equipment" }
